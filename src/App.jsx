@@ -56,40 +56,106 @@ function App() {
   ]
 
   const experiences = [
+
+      {
+      title: "Frontend Developer", 
+      company: "Avoi Skincare Company Limited",
+      period: "2024 - 2025",
+      description: "Developed a Website For The Rebranded product, Also an  E-Commerce Website",
+      skills: ["Html", "Css", "Javascript," "React", "Tailwind"]
+    },
     {
       title: "Frontend Developer",
-      company: "Your Company Name",
-      period: "2022 - Present",
-      description: "Add your experience details here...",
-      skills: ["React", "JavaScript", "CSS"]
+      company: "Oasis Infobytes EdTech",
+      period: "2023 - 2024",
+      description: "Frontend Developer Intership",
+      skills: ["Html", "JavaScript", "CSS"]
+    },
+
+     {
+      title: "Frontend Developer", 
+      company: "Flashmiles logistic Company",
+      period: "2024 - 2025",
+      description: "Developed  a Website for contact support for logistic support or partnership",
+      skills: ["Javascript," "React", "Tailwind"]
+    },
+  
+    {
+      title: "Frontend Developer", 
+      company: "Knowlwedge First Academy",
+      period: "2022 - 2023",
+      description: "Developed  a website for  both online and physical based Patform For learning",
+      skills: ["Html", "Css", "Javascript," "React", "Tailwind"]
+    },
+   
+          {
+      title: "WordPress Developer", 
+      company: "shuks Varieties Stores",
+      period: "2024 - 2025",
+      description: "Developed website for gaming and lottery Industry ",
+      skills: ["WordPress", "Elementor",]
     },
     {
       title: "WordPress Developer", 
-      company: "Your Agency Name",
-      period: "2023 - Present",
-      description: "Add your WordPress development experience here...",
-      skills: ["WordPress", "Elementor", "PHP"]
-    }
+      company: "Unpause Global",
+      period: "2023 - 2024",
+      description: "Developed the website for this Reliable shopping Company basically from US to Nigeria",
+      skills: ["WordPress", "Elementor",]
+    },
+
+       {
+      title: "WordPress Developer", 
+      company: "Gfam Limited",
+      period: "2022 - 2023",
+      description: "Being web developer that developed the website for this 'Recruitment based company' ",
+      skills: ["WordPress", "Elementor",]
+    },
+    {
+      title: "WordPress Developer",
+      company: "Scratch Me Card",
+      period: "2022 - 2023",
+      description: "Developed website for gaming and lottery Industry ",
+      skills: ["WordPress", "Elementor",]
+    },
+ 
   ]
 
   const projects = [
     {
-      title: "Project Name 1",
-      description: "Add your project description here...",
-      link: "#",
-      tech: ["React", "Tailwind"]
+      title: "Website: Gfam limited",
+      description: "A recruitment Consultant website based",
+      link: "#gfam.com",
+      tech: ["Wordpress", "Elementor"]
     },
     {
-      title: "Project Name 2", 
-      description: "Add your project description here...",
-      link: "#",
+      title: "Website: Scratch Me Card", 
+      description: "A website for gaming and lottery Industry",
+      link: "#scratchmecard.com",
       tech: ["WordPress", "Elementor"]
     },
     {
-      title: "Design Project",
-      description: "Add your design project description here...",
+      title: "Website: Unpause Global", 
+      description: "Shopping Company",
+      link: "#unpauseglobal.com",
+      tech: ["WordPress", "Elementor"]
+    },
+    {
+      title: "Website: 4242 Global Investment", 
+      description: "Business Consulting and investment firm",
+      link: "#4242globalinvestment.com",
+      tech: ["WordPress", "Elementor"]
+    },
+    {
+      title: "Website: Knowledge First Academy", 
+      description: "",
+      link: "#knowledgefirstacademy.netlify.app",
+      tech: ["Javascript", "Html/Css"]
+    },
+    {
+      title: "Design: Knowledge First Academy",
+      description: "Business Flier",
       link: "#", 
-      tech: ["Photoshop", "Figma"]
+      tech: ["Canva", "pixel lab"]
     }
   ]
 
@@ -306,7 +372,7 @@ function App() {
                 variant="outline"
                 size="lg"
                 className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-slate-900 px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 text-lg font-semibold"
-                onClick={() => window.open('mailto:your.email@example.com', '_blank')}
+                onClick={() => window.open('mailto:your.saheedkehinde052@gmail.com', '_blank')}
               >
                 <Mail className="mr-3 h-6 w-6" />
                 Send Email
