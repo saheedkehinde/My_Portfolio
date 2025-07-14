@@ -124,25 +124,25 @@ function App() {
     {
       title: "Website: Gfam limited",
       description: "A recruitment Consultant website based",
-      link: "#gfam.com",
+      link: "https://www.gfamplus.com/",
       tech: ["Wordpress", "Elementor"]
     },
     {
       title: "Website: Scratch Me Card", 
       description: "A website for gaming and lottery Industry",
-      link: "#scratchmecard.com",
+      link: "https://scratchmecard.com/terms-and-conditions.php",
       tech: ["WordPress", "Elementor"]
     },
     {
       title: "Website: Unpause Global", 
       description: "Shopping Company",
-      link: "#unpauseglobal.com",
+      link: "https://unpauseglobal.com/",
       tech: ["WordPress", "Elementor"]
     },
     {
       title: "Website: 4242 Global Investment", 
       description: "Business Consulting and investment firm",
-      link: "#4242globalinvestment.com",
+      link: "https://parsers.vc/startup/4242globalinvestment.com/",
       tech: ["WordPress", "Elementor"]
     },
     {
