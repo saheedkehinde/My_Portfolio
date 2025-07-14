@@ -148,7 +148,7 @@ function App() {
     {
       title: "Website: Knowledge First Academy", 
       description: "",
-      link: "#knowledgefirstacademy.netlify.app",
+      link: "knowledgefirstacademy.netlify.app/",
       tech: ["Javascript", "Html/Css"]
     },
     {
