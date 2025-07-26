@@ -203,7 +203,7 @@ function App() {
                 </span>
                 <span className="flex items-center">
                   <MapPin className="w-4 h-4 mr-1 text-green-400" />
-                  Available Worldwide
+                  Available Globally(Remotely)
                 </span>
               </div>
             </div>
@@ -395,7 +395,7 @@ function App() {
                 variant="ghost" 
                 size="lg"
                 className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-110 p-4"
-                onClick={() => window.open('https://github.com/yourusername', '_blank')}
+                onClick={() => window.open('https://github.com/saheedkehinde', '_blank')}
               >
                 <Github className="h-8 w-8" />
               </Button>
@@ -403,7 +403,7 @@ function App() {
                 variant="ghost" 
                 size="lg"
                 className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-110 p-4"
-                onClick={() => window.open('https://linkedin.com/in/yourlinkedinusername', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/saheed-kehinde-50499a237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', '_blank')}
               >
                 <Linkedin className="h-8 w-8" />
               </Button>
@@ -417,7 +417,7 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <ScrollAnimationWrapper>
             <p className="text-gray-400">
-              © 2024 Adeogun Saheed Kehinde. Crafted with ❤️ using React & Tailwind CSS
+              © 2024 Adeogun Saheed Kehinde. Crafted with ❤️
             </p>
           </ScrollAnimationWrapper>
         </div>
