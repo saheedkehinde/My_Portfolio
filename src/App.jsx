@@ -236,7 +236,7 @@ function App() {
               variant="ghost" 
               size="lg"
               className="border-2 border-gray-600 text-gray-300 hover:bg-gray-600 hover:text-white px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 text-lg font-semibold"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://saheedkehindey-portfolio.tiiny.site/', '_blank')}
             >
               <Download className="mr-3 h-6 w-6" />
               Download CV
