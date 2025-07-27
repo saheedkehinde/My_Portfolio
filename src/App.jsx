@@ -62,7 +62,7 @@ function App() {
       company: "Avoi Skincare Company Limited",
       period: "2024 - 2025",
       description: "Developed a Website For The Rebranded product, Also an  E-Commerce Website",
-      skills: ["Html", "Css", "Javascript," "React", "Tailwind"]
+      skills: ["Html", "Css", "Javascript", "React", "Tailwind"]
     },
     {
       title: "Frontend Developer",
