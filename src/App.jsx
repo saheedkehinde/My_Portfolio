@@ -74,7 +74,7 @@ function App() {
               </span>
             </div>
             
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
+            <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-white via-blue-200 to-white bg-clip-text text-transparent">
                 Adeogun
               </span>
