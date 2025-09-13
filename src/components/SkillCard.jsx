@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react'
+import { memo, useState, useEffect } from 'react'
 import { Card, CardContent } from '@/components/ui/card.jsx'
-import { useScrollAnimation } from './ScrollAnimation.jsx'
+import { useScrollAnimation } from '../hooks/useScrollAnimation.js'
 
-const SkillCard = ({ skill, index }) => {
+const SkillCard = memo(function SkillCard({ skill, index }) {
   const [ref, isVisible] = useScrollAnimation(0.3)
   const [animatedLevel, setAnimatedLevel] = useState(0)
 
@@ -70,7 +70,6 @@ const SkillCard = ({ skill, index }) => {
       </Card>
     </div>
   )
-}
+})
 
 export default SkillCard
-

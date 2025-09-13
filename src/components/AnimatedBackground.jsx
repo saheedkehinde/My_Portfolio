@@ -1,9 +1,14 @@
 import { useEffect, useRef } from 'react'
+import { usePrefersReducedMotion } from '@/hooks/useReducedMotion.js'
 
 const AnimatedBackground = () => {
   const canvasRef = useRef(null)
+  const reduced = usePrefersReducedMotion()
 
   useEffect(() => {
+    if (reduced) {
+      return
+    }
     const canvas = canvasRef.current
     const ctx = canvas.getContext('2d')
     let animationFrameId
@@ -19,7 +24,7 @@ const AnimatedBackground = () => {
 
     // Particles array
     const particles = []
-    const particleCount = 50
+    const particleCount = 15
 
     // Particle class
     class Particle {
@@ -57,6 +62,7 @@ const AnimatedBackground = () => {
     }
 
     // Animation loop
+    let frameCount = 0
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
@@ -65,23 +71,33 @@ const AnimatedBackground = () => {
         particle.draw()
       })
 
-      // Draw connections
-      particles.forEach((particle, i) => {
-        particles.slice(i + 1).forEach(otherParticle => {
-          const dx = particle.x - otherParticle.x
-          const dy = particle.y - otherParticle.y
-          const distance = Math.sqrt(dx * dx + dy * dy)
+      // Draw connections every 5 frames for better optimization, limit to max 3 connections per particle
+      frameCount++
+      if (frameCount % 5 === 0) {
+        particles.forEach((particle, i) => {
+          const connections = []
+          particles.slice(i + 1).forEach(otherParticle => {
+            const dx = particle.x - otherParticle.x
+            const dy = particle.y - otherParticle.y
+            const distance = Math.sqrt(dx * dx + dy * dy)
 
-          if (distance < 100) {
+            if (distance < 80 && connections.length < 3) {
+              connections.push({ particle: otherParticle, distance })
+            }
+          })
+
+          // Sort by distance and connect to closest 3
+          connections.sort((a, b) => a.distance - b.distance)
+          connections.slice(0, 3).forEach(({ particle: otherParticle, distance }) => {
             ctx.beginPath()
             ctx.moveTo(particle.x, particle.y)
             ctx.lineTo(otherParticle.x, otherParticle.y)
-            ctx.strokeStyle = `rgba(59, 130, 246, ${0.1 * (1 - distance / 100)})`
+            ctx.strokeStyle = `rgba(59, 130, 246, ${0.1 * (1 - distance / 80)})`
             ctx.lineWidth = 1
             ctx.stroke()
-          }
+          })
         })
-      })
+      }
 
       animationFrameId = requestAnimationFrame(animate)
     }
@@ -92,7 +108,11 @@ const AnimatedBackground = () => {
       window.removeEventListener('resize', resizeCanvas)
       cancelAnimationFrame(animationFrameId)
     }
-  }, [])
+  }, [reduced])
+
+  if (reduced) {
+    return null
+  }
 
   return (
     <canvas
@@ -104,4 +124,3 @@ const AnimatedBackground = () => {
 }
 
 export default AnimatedBackground
-
