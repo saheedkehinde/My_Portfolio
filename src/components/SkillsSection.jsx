@@ -4,7 +4,8 @@ import { Code, Palette, Globe } from 'lucide-react'
 
 const skills = [
    { name: 'HTML/CSS', icon: Code, level: 100 },
-  { name: 'React', icon: Code, level: 97 },
+  { name: 'ReactJs', icon: Code, level: 97 },
+   { name: 'Next.js', icon: Code, level: 90 },
   { name: 'JavaScript', icon: Code, level: 95 },
   { name: 'Typescript', icon: Code, level: 99 },
   { name: 'Tailwind CSS', icon: Code, level: 95 },

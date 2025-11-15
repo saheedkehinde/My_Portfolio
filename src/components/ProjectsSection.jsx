@@ -20,7 +20,7 @@ const projects = [
 {
     title: "VeriShare", 
     link: "https://team-hotel.netlify.app/",
-    tech: ["WordPress", "Elementor"]
+    tech: ["Smart Contract", "NextJs", "EVM"]
   },
 
   {
