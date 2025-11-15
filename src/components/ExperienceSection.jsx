@@ -4,38 +4,58 @@ import { ScrollAnimationWrapper } from './ScrollAnimation.jsx'
 import { Calendar } from 'lucide-react'
 
 const experiences = [
+
+ {
+    title: "Frontend Developer", 
+    company: "Uptick Talent",
+    period: "2025 - Present",
+    description: "Developed  a website for online based Platform For learning",
+    skills: ["ReactJs", "NextJs", "Tailwind"]
+  },
   {
     title: "Frontend Developer", 
-    company: "Avoi Skincare Company Limited",
+    company: "Avoi",
     period: "2024 - 2025",
     description: "Developed a Website For The Rebranded product, Also an  E-Commerce Website",
     skills: ["Html", "Css", "Javascript", "React", "Tailwind"]
   },
-  {
-    title: "Frontend Developer",
-    company: "Oasis Infobytes EdTech",
-    period: "2023 - 2024",
-    description: "Frontend Developer Intership",
-    skills: ["Html", "JavaScript", "CSS"]
-  },
-  {
+
+{
     title: "Frontend Developer", 
     company: "Flashmiles logistic Company",
     period: "2024 - 2025",
     description: "Developed  a Website for contact support for logistic support or partnership",
-    skills: ["Javascript", "React", "Tailwind"]
+    skills: ["ReactJs", "Tailwind"]
   },
+
   {
     title: "Frontend Developer", 
-    company: "Knowlwedge First Academy",
-    period: "2022 - 2023",
-    description: "Developed  a website for  both online and physical based Patform For learning",
-    skills: ["Html", "Css", "Javascript", "React", "Tailwind"]
+    company: "Esanad Consulting Services Ltd",
+    period: "2023 - 2024",
+    description: "Developed  a Web Application for a Consulting firm that deals on Fact Checking of News and Verification of Information",
+    skills: ["ReactJs", "Tailwind"]
   },
+
+  {
+    title: "Frontend Developer",
+    company: "Oasis Infobytes EdTech",
+    period: "2022 - 2023",
+    description: "Frontend Developer for an EdTech company that focuses on providing quality education to students",
+    skills: ["ReactJs"]
+  },
+  
+  {
+    title: "Frontend Developer",
+    company: "BlockDag - VeriShare (Blockchain Based Project)",
+    period: "2025",
+    description: "is a decentralized platform that enables secure, verifiable, and user-controlled data sharing on EVM-compatible blockchains",
+    skills: ["ReactJs"]
+  },
+  
   {
     title: "WordPress Developer", 
     company: "shuks Varieties Stores",
-    period: "2024 - 2025",
+    period: "2023 - 2024",
     description: "Developed website for gaming and lottery Industry ",
     skills: ["WordPress", "Elementor",]
   },
@@ -46,17 +66,10 @@ const experiences = [
     description: "Developed the website for this Reliable shopping Company basically from US to Nigeria",
     skills: ["WordPress", "Elementor",]
   },
-  {
-    title: "WordPress Developer", 
-    company: "Gfam Limited",
-    period: "2022 - 2023",
-    description: "Being web developer that developed the website for this 'Recruitment based company' ",
-    skills: ["WordPress", "Elementor",]
-  },
+ 
   {
     title: "WordPress Developer",
     company: "Scratch Me Card",
-    period: "2022 - 2023",
     description: "Developed website for gaming and lottery Industry ",
     skills: ["WordPress", "Elementor",]
   },

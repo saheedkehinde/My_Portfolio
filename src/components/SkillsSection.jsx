@@ -3,12 +3,13 @@ import SkillCard from './SkillCard.jsx'
 import { Code, Palette, Globe } from 'lucide-react'
 
 const skills = [
-  { name: 'React', icon: Code, level: 90 },
-  { name: 'JavaScript', icon: Code, level: 85 },
+   { name: 'HTML/CSS', icon: Code, level: 100 },
+  { name: 'React', icon: Code, level: 97 },
+  { name: 'JavaScript', icon: Code, level: 95 },
+  { name: 'Typescript', icon: Code, level: 99 },
+  { name: 'Tailwind CSS', icon: Code, level: 95 },
   { name: 'WordPress', icon: Globe, level: 95 },
-  { name: 'Elementor', icon: Globe, level: 90 },
-  { name: 'Typescript', icon: Code, level: 85 },
-  { name: 'Tailwind CSS', icon: Code, level: 85 },
+   { name: 'Elementor', icon: Globe, level: 95 },
   { name: 'Graphics Design', icon: Palette, level: 100 },
 ]
 

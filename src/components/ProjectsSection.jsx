@@ -6,41 +6,42 @@ import { ExternalLink } from 'lucide-react'
 
 const projects = [
   {
-    title: "Website: Gfam limited",
-    description: "A recruitment Consultant website based",
+    title: "Gfamplus",
     link: "https://www.gfamplus.com/",
-    tech: ["Wordpress", "Elementor"]
+    tech: ["ReactJs"]
   },
   {
-    title: "Website: Scratch Me Card", 
-    description: "A website for gaming and lottery Industry",
-    link: "https://scratchmecard.com/terms-and-conditions.php",
+    title: "Uptick Talent Afrika", 
+    description: "",
+    link: "https://www.upticktalent.africa/",
+    tech: ["Javascript", "ReactJs", "TailwindCSS", "Redux Toolkit", "Next.js"]
+  },
+
+{
+    title: "VeriShare", 
+    link: "https://team-hotel.netlify.app/",
     tech: ["WordPress", "Elementor"]
   },
+
   {
-    title: "Website: Unpause Global", 
-    description: "Shopping Company",
+    title: "Esanad Consult", 
+    link: "https://esanadconsult.netlify.app/",
+    tech: ["ReactJs"]
+  },
+
+  
+  {
+    title: "Unpause Global", 
     link: "https://unpauseglobal.com/",
     tech: ["WordPress", "Elementor"]
   },
   {
-    title: "Website: 4242 Global Investment", 
-    description: "Business Consulting and investment firm",
+    title: "4242 Global Investment", 
     link: "https://parsers.vc/startup/4242globalinvestment.com/",
     tech: ["WordPress", "Elementor"]
   },
-  {
-    title: "Website: Knowledge First Academy", 
-    description: "",
-    link: "https://knowledgefirstacademy.netlify.app/",
-    tech: ["Javascript", "Html/Css"]
-  },
-  {
-    title: "Design: Knowledge First Academy",
-    description: "Business Flier",
-    link: "#", 
-    tech: ["Canva", "pixel lab"]
-  }
+
+  
 ]
 
 const ProjectsSection = () => {
