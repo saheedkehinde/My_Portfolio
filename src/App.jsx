@@ -92,7 +92,7 @@ function App() {
               <div className="flex justify-center space-x-4 text-lg text-gray-400">
                 <span className="flex items-center">
                   <Star className="w-4 h-4 mr-1  text-yellow-400" />
-                  3+ Years Experience
+                  2+ Years Experience
                 </span>
                 <span className="flex items-center">
                   <MapPin className="w-4 h-4 mr-1 text-green-400" />
